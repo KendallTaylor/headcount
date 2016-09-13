@@ -17,9 +17,9 @@ class DistrictRepository
 
   def parse_for_district(data)
     data.each do |row|
-       unless repository.has_key?(row[:location].upcase)
-      district = District.new({:name => (row[:location]).upcase})
-      @repository[row[:location].upcase] = district
+      unless repository.has_key?(row[:location].upcase)
+        district = District.new({:name => (row[:location]).upcase})
+        @repository[row[:location].upcase] = district
       end
     end
     repository
@@ -36,6 +36,4 @@ class DistrictRepository
     end
     matches
   end
-
-
 end
