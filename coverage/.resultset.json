@@ -1,0 +1,60 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/aleneschlereth/turing/1mod/projects/headcount/lib/district_repository.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        5,
+        5,
+        5,
+        null,
+        null,
+        1,
+        5,
+        9955,
+        905,
+        905,
+        null,
+        null,
+        5,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        2,
+        2,
+        362,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/aleneschlereth/turing/1mod/projects/headcount/lib/district.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        905,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1473733929
+  }
+}
