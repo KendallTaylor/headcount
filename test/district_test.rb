@@ -13,7 +13,13 @@ class DistrictTest < Minitest::Test
     row = {name: "ADAMS-ARAPAHOE 28J"}
     district = District.new(row)
     assert_equal "ADAMS-ARAPAHOE 28J", district.name
+  end
 
+  def test_district_can_call_name
+    row = {name: "aurora"}
+    district = District.new(row)
+
+    assert_equal "AURORA", district.name
   end
 
 end
